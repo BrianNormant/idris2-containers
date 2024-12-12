@@ -8,7 +8,7 @@ import Derive.Prelude
 
 ||| An immutable first-in first-out structure with amortized
 ||| O(1) enqueue and dequeue operations.
-export
+public export
 record Queue a where
   constructor Q
   front : List a
